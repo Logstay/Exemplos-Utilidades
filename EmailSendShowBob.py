@@ -7,11 +7,11 @@ import smtplib, ssl
 smtp_server = 'smtp.gmail.com'
 port = 465
 # colocar seu email de remetente
-remetente = 'kaiquepng@gmail.com'
-senha = input('Insira sua senha: ')
+remetente = 'your@email.com'
+senha = input('Insert your pass: ')
 # colocar email de recptor
-receptor = 'kaiquepng@hotmail.com'
-mensagem = 'mensagem enviada de um app python1'
+receptor = 'yourFriend@email.com'
+mensagem = 'Email send with python code'
 print(mensagem.encode('utf-8', errors='ignore'))
 
 context = ssl.create_default_context()
